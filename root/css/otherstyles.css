@@ -1,0 +1,48 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    background-image: url(https://wallpapercave.com/wp/wp10758973.jpg);
+    background-repeat: repeat;
+    background-size: 50%;
+    color: rgb(210, 181, 181);
+
+}
+
+.mb-2{
+    width: 200px;
+}
+/* a style of h2 is a set thing, .mb-2 is a custom thing and needs to have a . */
+h2{
+    font-family: 'Comic Sans', 'Courier New', Courier, monospace;
+    font-size:  25px;
+    color: rgb(250, 181, 181);
+}
+.darkcolor{
+    background-color: rgba(255, 169, 169, 0.967)!important;
+}
+a:link {
+    color: rgb(243, 34, 34);
+}
+a:visited{
+    color: rgb(228, 212, 212);
+}
+a:hover{
+    font-size: 110%;
+}
+.header{
+    text-align: center; 
+    line-height: 10vh; 
+    color: rgb(210, 181, 181);
+    font-size: 30px;
+
+}
+.custom-iframe{
+    position: relative;
+    left: 30%;
+    margin: 0;
+
+    max-width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
